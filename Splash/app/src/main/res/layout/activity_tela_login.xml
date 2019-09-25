@@ -7,7 +7,7 @@
     tools:context=".TelaLogin">
 
     <EditText
-        android:id="@+id/btnUsuario"
+        android:id="@+id/edtUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteY="94dp" />
 
     <EditText
-        android:id="@+id/btnSenha"
+        android:id="@+id/edtSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="246dp" />
 
     <Button
-        android:id="@+id/btEnviar"
+        android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enviar"
@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="464dp" />
 
     <Button
-        android:id="@+id/btCancelar"
+        android:id="@+id/btnCancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancelar"
